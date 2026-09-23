@@ -1,0 +1,13 @@
+{
+    "name": "clipstrip-blog-stats-automation",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Nightly/weekly job that pulls GA4 pageview data for the Pop Fuel blog and publishes a small blog-stats.json for the storefront to consume.",
+    "type": "module",
+    "scripts": {
+          "update-stats": "node scripts/update-blog-stats.mjs"
+    },
+    "dependencies": {
+          "@google-analytics/data": "^4.6.0"
+    }
+}
