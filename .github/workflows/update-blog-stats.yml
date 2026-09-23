@@ -1,0 +1,46 @@
+name: Update blog stats from GA4
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC. GA4/BigCommerce data doesn't need to be any
+    # fresher than this for "Trending"/"Most Viewed" - change to weekly by
+    # swapping for something like '0 6 * * 1' (every Monday) if you'd rather.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {} # lets you click "Run workflow" in the Actions tab manually
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Pull GA4 data and generate blog-stats.json
+        run: npm run update-stats
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+          # Optional overrides - uncomment and edit if you want non-default values:
+          # BLOG_PATH_PREFIX: /p-o-p-fuel-a-merchandisers-blog/
+          # BLOG_LAUNCH_DATE: '2020-01-01'
+          # TRENDING_WINDOW_DAYS: '7'
+          # TOP_N: '6'
+
+      - name: Publish public/ to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          # Keeps this deploy independent of any other Pages content in the repo.
+          keep_files: false
