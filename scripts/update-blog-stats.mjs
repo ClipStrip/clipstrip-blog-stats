@@ -1,171 +1,84 @@
-/**
- * update-blog-stats.mjs
- *
- * Pulls Pop Fuel blog pageview data from Google Analytics 4 (GA4 Data API)
- * and writes a small JSON file that the storefront reads to render the
- * "Latest / Trending / Most Viewed" widgets dynamically.
- *
- * This script does NOT touch BigCommerce at all. It only reads from GA4 and
- * writes a JSON file to ./public/blog-stats.json in this repo. The GitHub
- * Actions workflow (see .github/workflows/update-blog-stats.yml) commits
- * that file and GitHub Pages serves it as a plain static file, which the
- * theme fetches at page-load time. No BigCommerce API account is required
- * for this piece.
- *
- * Required environment variables (set as GitHub Actions secrets, see README.md):
- *   GA4_PROPERTY_ID              - numeric GA4 property id, e.g. "384021110"
- *   GA4_SERVICE_ACCOUNT_JSON     - the full contents of the service account
- *                                  JSON key file (as a single-line string)
- *
- * Optional environment variables:
- *   BLOG_PATH_PREFIX             - default "/p-o-p-fuel-a-merchandisers-blog/"
- *   BLOG_LAUNCH_DATE             - "all time" start date for Most Viewed,
- *                                  format YYYY-MM-DD, default "2020-01-01"
- *   TRENDING_WINDOW_DAYS         - lookback window for Trending, default 7
- *   TOP_N                        - how many posts per list, default 6
- */
+import { mkdir, writeFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 
-import { BetaAnalyticsDataClient } from '@google-analytics/data';
-import { writeFile, mkdir } from 'node:fs/promises';
-import path from 'node:path';
-
-const PROPERTY_ID = requireEnv('GA4_PROPERTY_ID');
-const SERVICE_ACCOUNT_JSON = requireEnv('GA4_SERVICE_ACCOUNT_JSON');
-
-const BLOG_PATH_PREFIX = process.env.BLOG_PATH_PREFIX || '/p-o-p-fuel-a-merchandisers-blog/';
-const BLOG_LAUNCH_DATE = process.env.BLOG_LAUNCH_DATE || '2020-01-01';
-const TRENDING_WINDOW_DAYS = Number(process.env.TRENDING_WINDOW_DAYS || 7);
-const TOP_N = Number(process.env.TOP_N || 6);
-
-function requireEnv(name) {
-    const value = process.env[name];
-    if (!value) {
-          console.error(`Missing required environment variable: ${name}`);
-          process.exit(1);
-    }
-    return value;
-}
-
-// The service account key is passed in as a JSON string (see README for how
-// to put it into a GitHub secret). Parse it and hand it to the client
-// directly, rather than writing it to a credentials file on disk.
-const credentials = JSON.parse(SERVICE_ACCOUNT_JSON);
-
-const analyticsDataClient = new BetaAnalyticsDataClient({
-    credentials: {
-          client_email: credentials.client_email,
-          private_key: credentials.private_key,
-    },
-    projectId: credentials.project_id,
-});
-
-/**
- * Runs a GA4 report for pagePath + pageTitle + screenPageViews over a given
- * date range, restricted to the blog, and returns the top N pages sorted by
- * views descending. Excludes the blog index page itself and any /tag/...
- * listing pages, since we only want individual post pages here.
- */
-async function topBlogPosts({ startDate, endDate, limit }) {
-    const [response] = await analyticsDataClient.runReport({
-          property: `properties/${PROPERTY_ID}`,
-          dateRanges: [{ startDate, endDate }],
-          dimensions: [{ name: 'pagePath' }, { name: 'pageTitle' }],
-          metrics: [{ name: 'screenPageViews' }],
-          dimensionFilter: {
-                  andGroup: {
-                            expressions: [
-                              {
-                                            filter: {
-                                                            fieldName: 'pagePath',
-                                                            stringFilter: { matchType: 'BEGINS_WITH', value: BLOG_PATH_PREFIX },
-                                            },
-                              },
-                              {
-                                            notExpression: {
-                                                            filter: {
-                                                                              fieldName: 'pagePath',
-                                                                              stringFilter: { matchType: 'CONTAINS', value: '/tag/' },
-                                                            },
-                                            },
-                              },
-                                      ],
-                  },
-          },
-          orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
-          limit: 200, // pull extra rows; we de-dupe/trim below
-    });
-
-  const rows = response.rows || [];
-    const seenPaths = new Set();
-    const posts = [];
-
+export function combineRows(rows, prefix) {
+  const counts = {};
   for (const row of rows) {
-        const pagePath = row.dimensionValues[0].value;
-        const pageTitle = row.dimensionValues[1].value;
-        const views = Number(row.metricValues[0].value || 0);
-
-      // Skip the blog index/root and anything that isn't a real post page
-      // (e.g. "/p-o-p-fuel-a-merchandisers-blog/" or "...blog/?sort=trending").
-      const trimmed = pagePath.replace(BLOG_PATH_PREFIX, '').replace(/^\/|\/$/g, '');
-        if (!trimmed || trimmed.includes('?')) continue;
-
-      // GA4 sometimes reports the same post's path more than once if there are
-      // query-string variants; keep only the first (highest-view) occurrence.
-      const cleanPath = pagePath.split('?')[0];
-        if (seenPaths.has(cleanPath)) continue;
-        seenPaths.add(cleanPath);
-
-      posts.push({
-              title: pageTitle.replace(/\s*-\s*Clip Strip Corp\.?\s*$/i, '').trim(),
-              url: cleanPath,
-              views,
-      });
+    const raw = row.dimensionValues[0].value.split('?')[0];
+    if (!raw.startsWith(prefix)) continue;
+    const slug = raw.slice(prefix.length).replace(/\/$/, '');
+    if (!slug || slug.includes('/')) continue;
+    const url = prefix + slug + '/';
+    const count = Number(row.metricValues[0].value);
+    if (Number.isFinite(count) && count >= 0) counts[url] = (counts[url] || 0) + count;
   }
-
-  return posts.slice(0, limit);
+  return counts;
 }
-
-function isoDateDaysAgo(days) {
-    const d = new Date();
-    d.setUTCDate(d.getUTCDate() - days);
-    return d.toISOString().slice(0, 10);
+export function dateRange(today, days) {
+  const date = new Date(today + 'T12:00:00Z');
+  date.setUTCDate(date.getUTCDate() - days + 1);
+  return { startDate: date.toISOString().slice(0,10), endDate: today };
 }
-
-async function main() {
-    const today = new Date().toISOString().slice(0, 10);
-
-  console.log(`Pulling "Most Viewed" (all-time: ${BLOG_LAUNCH_DATE} to ${today})...`);
-    const mostViewed = await topBlogPosts({
-          startDate: BLOG_LAUNCH_DATE,
-          endDate: today,
-          limit: TOP_N,
-    });
-
-  console.log(`Pulling "Trending" (last ${TRENDING_WINDOW_DAYS} days)...`);
-    const trending = await topBlogPosts({
-          startDate: isoDateDaysAgo(TRENDING_WINDOW_DAYS),
-          endDate: today,
-          limit: TOP_N,
-    });
-
-  const payload = {
-        generatedAt: new Date().toISOString(),
-        trendingWindowDays: TRENDING_WINDOW_DAYS,
-        mostViewed,
-        trending,
-  };
-
-  const outDir = path.resolve('public');
-    await mkdir(outDir, { recursive: true });
-    const outPath = path.join(outDir, 'blog-stats.json');
-    await writeFile(outPath, JSON.stringify(payload, null, 2));
-
-  console.log(`Wrote ${outPath}`);
-    console.log(`  Most Viewed: ${mostViewed.length} posts`);
-    console.log(`  Trending:    ${trending.length} posts`);
+export function ranked(counts) {
+  return Object.entries(counts).map(([url,views]) => ({url,views})).sort((a,b)=>b.views-a.views || a.url.localeCompare(b.url));
 }
-
-main().catch((err) => {
-    console.error('Failed to update blog stats:', err);
-    process.exit(1);
-});
+function decode(text) {
+  return text.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n)));
+}
+async function enrich(post, origin) {
+  const fallback = {...post,title:post.url.split('/').filter(Boolean).at(-1).replace(/-/g,' '),image:''};
+  try {
+    const response = await fetch(new URL(post.url,origin), {signal:AbortSignal.timeout(15000)});
+    if(!response.ok) throw Error('Article unavailable');
+    const html = await response.text();
+    const meta = name => {
+      const tags = html.match(/<meta\b[^>]*>/gi) || [];
+      const tag = tags.find(t=>t.includes('"'+name+'"') || t.includes("'"+name+"'"));
+      return decode(tag?.match(/content\s*=\s*["']([^"']*)["']/i)?.[1] || '');
+    };
+    const title = meta('og:title') || decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || fallback.title);
+    const image = meta('og:image');
+    return {...post,title:title.replace(/\s*[-|]\s*(Clip Strip Corp\.?|Lola Products)\s*$/i,'').trim(),image:/^https:\/\//.test(image)?image:''};
+  } catch { return fallback; }
+}
+async function report(client, propertyId, prefix, startDate, endDate) {
+  const rows=[];
+  let offset=0;
+  while(true){
+    const [result] = await client.runReport({property:'properties/'+propertyId,dateRanges:[{startDate,endDate}],dimensions:[{name:'pagePath'}],metrics:[{name:'screenPageViews'}],dimensionFilter:{filter:{fieldName:'pagePath',stringFilter:{matchType:'BEGINS_WITH',value:prefix}}},limit:10000,offset});
+    rows.push(...(result.rows||[]));
+    offset += (result.rows||[]).length;
+    if(offset >= Number(result.rowCount||0) || !result.rows?.length) break;
+  }
+  return combineRows(rows,prefix);
+}
+async function update(config) {
+  const {BetaAnalyticsDataClient}=await import('@google-analytics/data');
+  const credentials=JSON.parse(config.credentials);
+  const client=new BetaAnalyticsDataClient({credentials:{client_email:credentials.client_email,private_key:credentials.private_key},projectId:credentials.project_id});
+  // Use the last completed day in the stores' timezone; avoid partial-day rankings.
+  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+  const part=type=>parts.find(x=>x.type===type).value;
+  const date=new Date(part('year')+'-'+part('month')+'-'+part('day')+'T12:00:00Z');
+  date.setUTCDate(date.getUTCDate()-1);
+  const end=date.toISOString().slice(0,10), recent=dateRange(end,7), start='2020-01-01';
+  const [allTimeCounts,recentCounts]=await Promise.all([report(client,config.id,config.prefix,start,end),report(client,config.id,config.prefix,recent.startDate,end)]);
+  const popular=ranked(allTimeCounts).slice(0,6), trending=ranked(recentCounts).slice(0,6);
+  const unique=[...new Map([...popular,...trending].map(p=>[p.url,p])).values()];
+  const enriched=await Promise.all(unique.map(p=>enrich(p,config.origin)));
+  const metadata=new Map(enriched.map(p=>[p.url,p]));
+  const decorate=rows=>rows.map(p=>({...metadata.get(p.url),views:p.views}));
+  const payload={generatedAt:new Date().toISOString(),source:'Google Analytics 4 API',propertyId:config.id,timeZone:'America/New_York',dataThrough:end,includesPartialToday:false,trendingWindowDays:7,mostViewedRange:{startDate:start,endDate:end},trendingRange:recent,mostViewed:decorate(popular),trending:decorate(trending),allTimeCounts,recentCounts};
+  await mkdir('public',{recursive:true});
+  await writeFile(resolve('public',config.file),JSON.stringify(payload,null,2));
+  console.log(config.name+': updated '+Object.keys(allTimeCounts).length+' article counts through '+end);
+}
+async function main(){
+  if(!process.env.GA4_SERVICE_ACCOUNT_JSON || !process.env.GA4_PROPERTY_ID) throw Error('ClipStrip analytics configuration is missing');
+  await update({name:'ClipStrip',id:process.env.GA4_PROPERTY_ID,credentials:process.env.GA4_SERVICE_ACCOUNT_JSON,prefix:'/p-o-p-fuel-a-merchandisers-blog/',origin:'https://www.clipstrip.com',file:'blog-stats.json'});
+  if(process.env.LOLA_GA4_SERVICE_ACCOUNT_JSON){
+    await update({name:'Lola',id:'384021303',credentials:process.env.LOLA_GA4_SERVICE_ACCOUNT_JSON,prefix:'/blogs/news/',origin:'https://lolaproducts.com',file:'lola-blog-stats.json'});
+  } else console.log('Lola credential not yet configured; ClipStrip refresh remains active.');
+}
+if(process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) main().catch(error=>{console.error('Statistics refresh failed:',error.message);process.exitCode=1;});
