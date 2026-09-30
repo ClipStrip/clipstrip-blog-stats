@@ -31,6 +31,7 @@ jobs:
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+          LOLA_GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.LOLA_GA4_SERVICE_ACCOUNT_JSON }}
           # Optional overrides - uncomment and edit if you want non-default values:
           # BLOG_PATH_PREFIX: /p-o-p-fuel-a-merchandisers-blog/
           # BLOG_LAUNCH_DATE: '2020-01-01'
