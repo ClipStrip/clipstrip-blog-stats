@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-03T06:09:58.256Z",
+  "generatedAt": "2026-10-04T11:12:31.033Z",
   "source": "Google Analytics 4 API",
   "propertyId": "384021110",
   "timeZone": "America/New_York",
-  "dataThrough": "2026-10-02",
+  "dataThrough": "2026-10-03",
   "includesPartialToday": false,
   "trendingWindowDays": 7,
   "mostViewedRange": {
     "startDate": "2020-01-01",
-    "endDate": "2026-10-02"
+    "endDate": "2026-10-03"
   },
   "trendingRange": {
-    "startDate": "2026-09-26",
-    "endDate": "2026-10-02"
+    "startDate": "2026-09-27",
+    "endDate": "2026-10-03"
   },
   "mostViewed": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 171,
+      "views": 173,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/",
-      "views": 28,
+      "views": 29,
       "title": "Decoding Pure Play E-Commerce: What It Is and How It Drives Online-Only Retail Success",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/ecommerce.png"
     },
@@ -55,7 +55,7 @@
   "trending": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 19,
+      "views": 18,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -64,18 +64,6 @@
       "views": 4,
       "title": "Small Link, Strategic Impact: The Business Value of Beaded Ball Chain Fasteners",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/beadedballchain.png"
-    },
-    {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/things-you-have-to-know-about-pop-displays/",
-      "views": 4,
-      "title": "Things You Have to Know About POP Displays",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/w.png"
-    },
-    {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/",
-      "views": 3,
-      "title": "Eight Cheap Ways to Prevent Shoplifting in your Store",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/eight-cheap-ways-to-prevent-shoplifting-in-your-store.jpg"
     },
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/",
@@ -88,11 +76,23 @@
       "views": 2,
       "title": "Basic SEO Checklist to Determine the Rank of Your Store",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/k.png"
+    },
+    {
+      "url": "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/",
+      "views": 2,
+      "title": "Eight Cheap Ways to Prevent Shoplifting in your Store",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/eight-cheap-ways-to-prevent-shoplifting-in-your-store.jpg"
+    },
+    {
+      "url": "/p-o-p-fuel-a-merchandisers-blog/fathers-day-impact-on-us-retail/",
+      "views": 2,
+      "title": "Father’s Day Impact on US Retail",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/father-s-day-impact-on-us-retail.jpeg"
     }
   ],
   "allTimeCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 171,
-    "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 28,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 173,
+    "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 29,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 14,
     "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/": 12,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-revenue-in-2026-strategic-use-of-clip-strip-pop-displays-to-drive-sales-and-engagement/": 11,
@@ -565,13 +565,11 @@
     "/p-o-p-fuel-a-merchandisers-blog/working-on-customer-loyalty-for-business-to-become-successful/": 1
   },
   "recentCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 19,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 18,
     "/p-o-p-fuel-a-merchandisers-blog/small-link-strategic-impact-the-business-value-of-beaded-ball-chain-fasteners/": 4,
-    "/p-o-p-fuel-a-merchandisers-blog/things-you-have-to-know-about-pop-displays/": 4,
-    "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/basic-seo-checklist-to-determine-the-rank-of-your-store/": 2,
-    "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/fathers-day-impact-on-us-retail/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/is-your-point-of-purchase-marketing-strategy-colorful-enough/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/": 2,
@@ -605,6 +603,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/customer-cooldown-dealing-with-angry-customers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/cut-through-the-visual-clutter-with-wobblers-flags-and-shelf-channel-strips/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/data-as-a-driver-of-business-growth-outcome/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/display-strips-are-perfect-for-crossmerchandising-and-saving-space/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/dissecting-the-art-of-store-credit-common-types-and-benefits/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/effective-caption-writing-to-drive-engagement-and-sales/": 1,
