@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-07T06:04:25.219Z",
+  "generatedAt": "2026-10-08T06:05:56.657Z",
   "source": "Google Analytics 4 API",
   "propertyId": "384021110",
   "timeZone": "America/New_York",
-  "dataThrough": "2026-10-06",
+  "dataThrough": "2026-10-07",
   "includesPartialToday": false,
   "trendingWindowDays": 7,
   "mostViewedRange": {
     "startDate": "2020-01-01",
-    "endDate": "2026-10-06"
+    "endDate": "2026-10-07"
   },
   "trendingRange": {
-    "startDate": "2026-09-30",
-    "endDate": "2026-10-06"
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-07"
   },
   "mostViewed": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 177,
+      "views": 178,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -55,7 +55,7 @@
   "trending": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 8,
+      "views": 7,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -64,12 +64,6 @@
       "views": 4,
       "title": "Small Link, Strategic Impact: The Business Value of Beaded Ball Chain Fasteners",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/beadedballchain.png"
-    },
-    {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/",
-      "views": 3,
-      "title": "4 Time Management Tips for Small Retail Store Managers",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/4-time-management-tips-for-small-retail-store-managers.png"
     },
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/is-your-point-of-purchase-marketing-strategy-colorful-enough/",
@@ -84,14 +78,20 @@
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/s-hooks-from-ancient-warfare-to-modern-merchandising-1200x841.jpg"
     },
     {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/5-common-mistakes-you-dont-want-to-do-when-starting-a-business/",
+      "url": "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/",
       "views": 1,
-      "title": "5 Common Mistakes You Don’t Want to Do When Starting a Business",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/2.png"
+      "title": "4 Time Management Tips for Small Retail Store Managers",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/4-time-management-tips-for-small-retail-store-managers.png"
+    },
+    {
+      "url": "/p-o-p-fuel-a-merchandisers-blog/5-examples-of-digital-technology-mingled-with-physical-retail-stores/",
+      "views": 1,
+      "title": "5 Examples of Digital Technology Mingled with Physical Retail Stores",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/5-examples-of-digital-technology-mingled-with-physical-retail-stores.png"
     }
   ],
   "allTimeCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 177,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 178,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 29,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 14,
     "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/": 12,
@@ -180,6 +180,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/3-tips-for-retail-stores-in-wet-weather/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/4-types-of-signage-retailer-shant-ignore/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/5-afterpurchase-email-types-to-win-the-hearts-of-your-consumers/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/5-examples-of-digital-technology-mingled-with-physical-retail-stores/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/5-keys-to-making-every-sign-count/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/5-layout-secrets-of-the-big-retail-chains/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/5-retail-marketing-ideas-for-merchandising-with-beacons/": 2,
@@ -301,7 +302,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/4-tips-for-successful-retail-store-space-planning/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/4-totally-preventable-causes-of-stockouts-and-how-to-prevent-them/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/5-common-mistakes-you-dont-want-to-do-when-starting-a-business/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/5-examples-of-digital-technology-mingled-with-physical-retail-stores/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/5-faulty-habits-businessman-do-with-facebook-advertising/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/5-merchandising-tricks-your-brand-or-store-should-consider-on-and-offline/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/5-things-that-refuse-to-change-in-retail-reality/": 1,
@@ -443,6 +443,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/millennials-drive-snacking-trend/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/ministores-are-they-really-the-future-of-retail/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/modern-ways-to-sell-from-home/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/online-business-ideas-that-starts-with-talent-and-creativity/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/online-contests-for-your-retail-giveaways/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/online-food-business-explained-for-beginners/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/optimize-your-dayunload-all-unnecessary-workloads/": 1,
@@ -566,27 +567,25 @@
     "/p-o-p-fuel-a-merchandisers-blog/working-on-customer-loyalty-for-business-to-become-successful/": 1
   },
   "recentCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 8,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 7,
     "/p-o-p-fuel-a-merchandisers-blog/small-link-strategic-impact-the-business-value-of-beaded-ball-chain-fasteners/": 4,
-    "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/is-your-point-of-purchase-marketing-strategy-colorful-enough/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/s-hooks-the-modern-merchandisers-connection-to-ancient-greek-strategists/": 2,
-    "/p-o-p-fuel-a-merchandisers-blog/5-common-mistakes-you-dont-want-to-do-when-starting-a-business/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/5-examples-of-digital-technology-mingled-with-physical-retail-stores/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/a-beginners-guide-on-facebook-ads/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/elevating-instore-communication-how-banner-hangers-enhance-marketing-safety-and-promotional-messaging-in-supermarkets/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/fathers-day-impact-on-us-retail/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/five-psychological-tactics-retailers-should-know-to-influence-customers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/harnessing-gen-zs-retail-power-strategic-instore-growth-with-clip-strip-merchandising/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/inside-the-mind-of-retail-theft-five-key-drivers-of-shopliftingand-strategic-prevention-tactics/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/marketing-strategies-to-make-your-fans-love-your-merch/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-revenue-in-2026-strategic-use-of-clip-strip-pop-displays-to-drive-sales-and-engagement/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/online-business-ideas-that-starts-with-talent-and-creativity/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/running-your-retail-business-more-efficiently-through-outsourcing/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/strategic-precision-unlocking-market-potential-through-geographic-segmentation/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/sustainable-merchandising-without-compromise-how-eco-clip-strip-display-strips-benefit-retailers-and-the-environment/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/the-silent-sales-driver-how-clip-strip-pointofpurchase-displays-strategically-trigger-impulse-buying/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/three-simple-ways-to-create-an-engaged-customer-base/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/tips-on-using-instagram-hashtags-to-increase-your-likes-and-follows/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/turning-flat-surfaces-into-marketing-opportunities-the-business-value-of-peel-stick-literature-holders/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/turning-website-visits-into-actual-profit-through-facebook-retargeting/": 1,
