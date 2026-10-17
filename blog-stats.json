@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-16T06:17:22.455Z",
+  "generatedAt": "2026-10-17T06:13:13.236Z",
   "source": "Google Analytics 4 API",
   "propertyId": "384021110",
   "timeZone": "America/New_York",
-  "dataThrough": "2026-10-15",
+  "dataThrough": "2026-10-16",
   "includesPartialToday": false,
   "trendingWindowDays": 7,
   "mostViewedRange": {
     "startDate": "2020-01-01",
-    "endDate": "2026-10-15"
+    "endDate": "2026-10-16"
   },
   "trendingRange": {
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-15"
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-16"
   },
   "mostViewed": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 226,
+      "views": 232,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -91,7 +91,7 @@
     }
   ],
   "allTimeCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 226,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 232,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 43,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 17,
     "/p-o-p-fuel-a-merchandisers-blog/sustainable-merchandising-without-compromise-how-eco-clip-strip-display-strips-benefit-retailers-and-the-environment/": 15,
@@ -120,6 +120,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/beyond-transactions-how-humantohuman-marketing-builds-brands-through-empathy/": 5,
     "/p-o-p-fuel-a-merchandisers-blog/boosting-food-beverage-sales-with-strategic-sign-holders-a-smart-marketing-tool-for-cafs-and-restaurants/": 5,
     "/p-o-p-fuel-a-merchandisers-blog/elevating-instore-communication-how-banner-hangers-enhance-marketing-safety-and-promotional-messaging-in-supermarkets/": 5,
+    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 5,
     "/p-o-p-fuel-a-merchandisers-blog/get-your-brand-out-there/": 5,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-close-retail-sales-identify-the-customer-conversion-points/": 5,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-facebook-live-commerce-a-strategic-retail-playbook-for-2026/": 5,
@@ -144,7 +145,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/ecoelite-merchandising-how-clip-strip-pioneers-sustainable-display-innovation-with-ecoclip-strip/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/eight-cheap-ways-to-prevent-shoplifting-in-your-store/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/elevating-retail-prestige-luxury-marketing-strategies-and-display-solutions-that-sell/": 4,
-    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/five-strategic-imperatives-for-a-highimpact-retail-product-launch/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/four-marketing-ideas-toboost-your-retail-sales/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/from-community-to-customer-6-local-advertising-ideas-that-work/": 4,
@@ -631,10 +631,10 @@
     "/p-o-p-fuel-a-merchandisers-blog/7-retail-hazards-and-how-storeowners-can-avoid-it/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/basic-things-you-have-to-know-about-fulfillment-services/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/earn-at-home-homebased-business-ideas-you-can-start-asap/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/from-shelf-chaos-to-sales-clarity-why-adhesive-and-magnetic-shelf-dividers-matter-in-retail/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-drive-online-store-traffic-into-actual-sales/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/importance-of-wifis-impact-on-instore-analytics/": 2,
-    "/p-o-p-fuel-a-merchandisers-blog/income-generating-hobbies-that-you-should-start-to-monetize/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/incorporating-brand-identity-into-the-retail-store/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/marketing-operations-as-the-foundation-of-a-company/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-keyword-research-a-strategic-guide-to-elevate-your-seo-game/": 2,
@@ -689,7 +689,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/feeling-lonely-5-ways-to-cure-the-entrepreneurship-blues/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/finding-the-best-instagram-hashtags-for-your-brand/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/finding-your-way-back-to-the-right-path-when-you-are-lost-in-your-business/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/four-marketing-ideas-toboost-your-retail-sales/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/get-your-brand-out-there/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/going-straight-to-the-point-about-point-of-purchase-advertising/": 1,
@@ -729,6 +728,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/implementing-a-return-policy-that-favors-both-you-and-your-customers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/importance-of-initial-knowledge-and-effective-gimmicks-in-retail/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/impulse-buying-how-retailers-can-get-customers-to-buy-more-on-the-fly/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/income-generating-hobbies-that-you-should-start-to-monetize/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/increasing-average-order-value-to-get-more-profit-for-your-online-business-032839/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/increasing-online-sales-by-motivating-loyalty/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/instagram-algorithm-and-how-to-use-it-as-an-effective-strategy/": 1,
