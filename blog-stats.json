@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-20T06:18:20.260Z",
+  "generatedAt": "2026-10-21T06:19:42.563Z",
   "source": "Google Analytics 4 API",
   "propertyId": "384021110",
   "timeZone": "America/New_York",
-  "dataThrough": "2026-10-19",
+  "dataThrough": "2026-10-20",
   "includesPartialToday": false,
   "trendingWindowDays": 7,
   "mostViewedRange": {
     "startDate": "2020-01-01",
-    "endDate": "2026-10-19"
+    "endDate": "2026-10-20"
   },
   "trendingRange": {
-    "startDate": "2026-10-13",
-    "endDate": "2026-10-19"
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-20"
   },
   "mostViewed": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 252,
+      "views": 255,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -46,10 +46,10 @@
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/1.png"
     },
     {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/",
+      "url": "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/",
       "views": 13,
-      "title": "Retail Lighting: Tips to Encourage Sales Through Lights",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/retail-lighting-tips-to-encourage-sales-through-lights.jpeg"
+      "title": "4 Time Management Tips for Small Retail Store Managers",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/4-time-management-tips-for-small-retail-store-managers.png"
     }
   ],
   "trending": [
@@ -66,16 +66,16 @@
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/ecommerce.png"
     },
     {
+      "url": "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/",
+      "views": 6,
+      "title": "Five Attractive, Effective Marketing Schemes for Memorial Day",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/five-attractive-effective-marketing-schemes-for-memorial-day.jpeg"
+    },
+    {
       "url": "/p-o-p-fuel-a-merchandisers-blog/small-hardware-major-visibility-why-suction-cups-are-essential-to-retail-signage/",
       "views": 6,
       "title": "Small Hardware, Major Visibility: Why Suction Cups Are Essential to Retail Signage",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/suction-cups.png"
-    },
-    {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/",
-      "views": 4,
-      "title": "Five Attractive, Effective Marketing Schemes for Memorial Day",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/five-attractive-effective-marketing-schemes-for-memorial-day.jpeg"
     },
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/grocery-store-layouts-why-are-they-all-so-similar/",
@@ -84,29 +84,29 @@
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/grocery-store-layouts-why-are-they-all-so-similar-.jpeg"
     },
     {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/10-proven-strategies-to-attract-customers-and-drive-store-traffic/",
-      "views": 2,
-      "title": "10 Proven Strategies to Attract Customers and Drive Store Traffic",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/attract-customers.png"
+      "url": "/p-o-p-fuel-a-merchandisers-blog/understanding-what-makes-the-cost-of-a-rent-a-retail-space/",
+      "views": 3,
+      "title": "Understanding What Makes the Cost of a Rent a Retail Space",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/understanding-what-makes-the-cost-of-a-rent-a-retail-space.jpeg"
     }
   ],
   "allTimeCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 252,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 255,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 50,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 17,
     "/p-o-p-fuel-a-merchandisers-blog/sustainable-merchandising-without-compromise-how-eco-clip-strip-display-strips-benefit-retailers-and-the-environment/": 16,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-revenue-in-2026-strategic-use-of-clip-strip-pop-displays-to-drive-sales-and-engagement/": 14,
+    "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 13,
     "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/": 13,
-    "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 12,
     "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/": 11,
+    "/p-o-p-fuel-a-merchandisers-blog/grocery-store-layouts-why-are-they-all-so-similar/": 10,
     "/p-o-p-fuel-a-merchandisers-blog/a-local-delivery-service-guide-to-drive-more-sales-online/": 9,
-    "/p-o-p-fuel-a-merchandisers-blog/grocery-store-layouts-why-are-they-all-so-similar/": 9,
+    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 9,
     "/p-o-p-fuel-a-merchandisers-blog/reinventing-retail-visibility-how-clip-strip-pointofpurchase-displays-drive-revenue-in-the-age-of-artificial-intelligence/": 9,
     "/p-o-p-fuel-a-merchandisers-blog/small-hardware-major-visibility-why-suction-cups-are-essential-to-retail-signage/": 9,
     "/p-o-p-fuel-a-merchandisers-blog/leveraging-ai-for-marketing-success-the-best-ai-tools-to-elevate-your-brand/": 8,
     "/p-o-p-fuel-a-merchandisers-blog/10-proven-strategies-to-attract-customers-and-drive-store-traffic/": 7,
     "/p-o-p-fuel-a-merchandisers-blog/bring-your-brand-to-the-aisle/": 7,
-    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 7,
     "/p-o-p-fuel-a-merchandisers-blog/inside-the-mind-of-retail-theft-five-key-drivers-of-shopliftingand-strategic-prevention-tactics/": 7,
     "/p-o-p-fuel-a-merchandisers-blog/the-hidden-retail-trigger-how-strategic-displays-drive-impulse-buys-among-gen-z-and-millennials/": 7,
     "/p-o-p-fuel-a-merchandisers-blog/5-proven-ways-to-increase-product-sellthrough/": 6,
@@ -156,6 +156,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/is-your-point-of-purchase-marketing-strategy-colorful-enough/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/marketing-strategies-to-make-your-fans-love-your-merch/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-keyword-research-a-strategic-guide-to-elevate-your-seo-game/": 4,
+    "/p-o-p-fuel-a-merchandisers-blog/merchandising-in-action-corrugated-oreo-display-gets-my-milk-money/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/playing-the-long-game-for-long-term-growth/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/preventing-your-retail-store-from-turning-into-a-warehouse/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/pricing101-how-do-you-price-your-products-right/": 4,
@@ -163,6 +164,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/the-secret-behind-catchy-business-name/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/turning-flat-surfaces-into-marketing-opportunities-the-business-value-of-peel-stick-literature-holders/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/understanding-b2b-and-b2c-marketing-and-how-to-create-epic-experiences/": 4,
+    "/p-o-p-fuel-a-merchandisers-blog/understanding-what-makes-the-cost-of-a-rent-a-retail-space/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/unlocking-retail-growth-how-smart-wifi-marketing-transforms-instore-sales/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/which-hang-tab-is-right-for-your-retail-display/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/4-tips-for-successful-retail-store-space-planning/": 3,
@@ -192,6 +194,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/how-brick-and-mortar-stores-can-win-against-online-retailers-this-holiday/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/how-disruptive-pop-can-make-customers-focus-on-your-products/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/how-manufacturing-companies-build-strong-branding-and-promote-safety/": 3,
+    "/p-o-p-fuel-a-merchandisers-blog/how-pop-displays-dramatically-increase-sales/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-achieve-strong-sales-results-at-pointofpurchase/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-find-the-right-price-for-your-products/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-kickstart-a-successful-online-store/": 3,
@@ -203,7 +206,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/instagram-algorithm-and-how-to-use-it-as-an-effective-strategy/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/loyalty-programs-to-make-sure-your-customers-wont-stop-coming-back/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-impact-proven-pointofpurchase-strategies-that-convert-browsers-into-buyers/": 3,
-    "/p-o-p-fuel-a-merchandisers-blog/merchandising-in-action-corrugated-oreo-display-gets-my-milk-money/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/merchant-strategies-that-shout-support-local/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/pointofpurchase-pop-displays-as-key-to-giving-consumers-a-unique-retail-experience/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/pop-marketing-and-design-influence-shopper-behavior/": 3,
@@ -278,6 +280,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/elevating-retail-communication-how-banner-hangers-transform-signage-into-a-strategic-business-tool/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/elevating-retail-experiences-how-strategic-merchandising-with-clip-strip-enhances-customer-engagement/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/everything-else-you-need-to-know-about-popup-shops-and-temporary-retail/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/feeling-lonely-5-ways-to-cure-the-entrepreneurship-blues/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/finding-the-best-instagram-hashtags-for-your-brand/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/finding-your-way-back-to-the-right-path-when-you-are-lost-in-your-business/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/five-common-damaging-customer-service-mistakes-you-need-to-avoid/": 2,
@@ -290,12 +293,12 @@
     "/p-o-p-fuel-a-merchandisers-blog/grocery-store-layouts-how-it-influences-shopping-behavior/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/guide-on-how-to-customize-packaging-and-make-your-products-stand-out/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-can-retailers-and-brands-resonate-among-the-generation-z/": 2,
-    "/p-o-p-fuel-a-merchandisers-blog/how-pop-displays-dramatically-increase-sales/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-promotion-helps-in-small-businesses-success/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-retailers-are-incorporating-ar-technology-into-products-and-packaging/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-small-businesses-can-cut-shipping-costs/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-attract-a-younger-mobilesavvy-audience-to-your-shop-or-site/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-be-a-successful-brand-online-and-offline/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/how-to-change-consumers-perspective-on-marketing-surveys/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-create-a-digital-shopping-experience-with-printed-store-signs/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-drive-more-traffic-to-a-new-website/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-drive-online-store-traffic-into-actual-sales/": 2,
@@ -456,7 +459,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/dont-make-one-of-these-retail-customer-experience-mistakes/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/effective-messaging-as-key-to-customer-retention-loyalty/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/emerging-retail-trends/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/feeling-lonely-5-ways-to-cure-the-entrepreneurship-blues/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/financial-services-providers-expand-payment-options/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/five-big-data-tools-to-fit-into-your-store/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/forget-excuses-and-boost-your-sales/": 1,
@@ -478,7 +480,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/how-retailers-trigger-impulse-buying/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-small-retailers-survive-the-digital-era-with-their-instore-business/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-social-media-shaped-retail-by-being-the-new-trendsetter/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/how-to-change-consumers-perspective-on-marketing-surveys/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-create-a-more-attractive-retail-store-interior/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-expand-your-retail-business/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-get-business-investors-love-your-retail-store/": 1,
@@ -591,7 +592,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/tracking-your-customer-trends/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/trends-indicate-emergence-of-new-retail-era/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/try-before-you-buy-how-product-sampling-drives-sales-and-shopper-confidence/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/understanding-what-makes-the-cost-of-a-rent-a-retail-space/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/useful-tips-on-how-to-use-postpurchase-communication-to-increase-sales/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/using-faster-checkout-apps-to-help-turn-potential-customers-into-surebuyers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/using-location-based-marketing-as-a-shopping-marketer/": 1,
@@ -621,12 +621,14 @@
   "recentCounts": {
     "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 39,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 8,
+    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 6,
     "/p-o-p-fuel-a-merchandisers-blog/small-hardware-major-visibility-why-suction-cups-are-essential-to-retail-signage/": 6,
-    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/grocery-store-layouts-why-are-they-all-so-similar/": 4,
+    "/p-o-p-fuel-a-merchandisers-blog/understanding-what-makes-the-cost-of-a-rent-a-retail-space/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/10-proven-strategies-to-attract-customers-and-drive-store-traffic/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/a-local-delivery-service-guide-to-drive-more-sales-online/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-keyword-research-a-strategic-guide-to-elevate-your-seo-game/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/5-proven-ways-to-increase-product-sellthrough/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/a-beginners-guide-on-facebook-ads/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/benefits-of-customer-retention-how-to-sell-more-to-current-customers/": 1,
@@ -634,10 +636,13 @@
     "/p-o-p-fuel-a-merchandisers-blog/building-loyalty-that-lasts-customer-reward-program-ideas-inspired-by-leading-brands/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/customer-cooldown-dealing-with-angry-customers/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/display-strips-are-perfect-for-crossmerchandising-and-saving-space/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/feeling-lonely-5-ways-to-cure-the-entrepreneurship-blues/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/from-abandoned-cart-to-completed-sale-strategies-for-improving-ecommerce-recovery-rates/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/gondola-shelving-displays-theyre-not-just-for-convenience-stores-anymore/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/have-a-retail-sales-year-youre-not-ashamed-of-five-steps/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-manufacturing-companies-build-strong-branding-and-promote-safety/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/how-pop-displays-dramatically-increase-sales/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/how-to-change-consumers-perspective-on-marketing-surveys/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-find-the-right-price-for-your-products/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-identify-automateable-retail-process/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-kickstart-a-successful-online-store/": 1,
@@ -645,11 +650,9 @@
     "/p-o-p-fuel-a-merchandisers-blog/loyalty-programs-to-make-sure-your-customers-wont-stop-coming-back/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/marketing-strategies-to-make-your-fans-love-your-merch/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-facebook-live-commerce-a-strategic-retail-playbook-for-2026/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/maximizing-digital-reach-with-strategic-referrals-a-business-guide-to-driving-website-traffic-through-referral-channels/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-revenue-in-2026-strategic-use-of-clip-strip-pop-displays-to-drive-sales-and-engagement/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-sales-this-season-a-retailers-backtoschool-shopping-guide/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/merchandising-in-action-corrugated-oreo-display-gets-my-milk-money/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/merchant-strategies-that-shout-support-local/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/popup-shops-a-strategic-retail-model-for-driving-sales-engagement-and-brand-growth/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/retail-franchising-opportunities-and-how-to-seize-it/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/rise-of-mobile-gaming-overshadowing-social-media/": 1,
@@ -661,7 +664,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/the-science-of-discounts/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/tips-for-an-effective-wholesale-strategy/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/turning-flat-surfaces-into-marketing-opportunities-the-business-value-of-peel-stick-literature-holders/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/understanding-b2b-and-b2c-marketing-and-how-to-create-epic-experiences/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/unlocking-retail-potential-how-ai-is-transforming-store-operations-and-customer-engagement/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/which-hang-tab-is-right-for-your-retail-display/": 1
   }
