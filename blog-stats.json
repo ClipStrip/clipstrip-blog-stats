@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-29T11:55:11.119Z",
+  "generatedAt": "2026-10-30T11:49:18.576Z",
   "source": "Google Analytics 4 API",
   "propertyId": "384021110",
   "timeZone": "America/New_York",
-  "dataThrough": "2026-10-28",
+  "dataThrough": "2026-10-29",
   "includesPartialToday": false,
   "trendingWindowDays": 7,
   "mostViewedRange": {
     "startDate": "2020-01-01",
-    "endDate": "2026-10-28"
+    "endDate": "2026-10-29"
   },
   "trendingRange": {
-    "startDate": "2026-10-22",
-    "endDate": "2026-10-28"
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-29"
   },
   "mostViewed": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/",
-      "views": 16,
+      "views": 17,
       "title": "Five Attractive, Effective Marketing Schemes for Memorial Day",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/five-attractive-effective-marketing-schemes-for-memorial-day.jpeg"
     },
@@ -55,7 +55,7 @@
   "trending": [
     {
       "url": "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/",
-      "views": 39,
+      "views": 36,
       "title": "Cutting Out the Middleman: Understanding Disintermediation and Its Impact on Modern Business",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/disintermediation.png"
     },
@@ -72,12 +72,6 @@
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/five-attractive-effective-marketing-schemes-for-memorial-day.jpeg"
     },
     {
-      "url": "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/",
-      "views": 4,
-      "title": "Retail Without Discounts: Weighing the Strategy and 5 Proven Ways to Drive Sales at Full Price",
-      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/retail-without-discounts.png"
-    },
-    {
       "url": "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/",
       "views": 3,
       "title": "4 Time Management Tips for Small Retail Store Managers",
@@ -88,6 +82,12 @@
       "views": 3,
       "title": "The Halo Effect Advantage: How Smart Retailers Drive Sales Through Perception Power",
       "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/halo.png"
+    },
+    {
+      "url": "/p-o-p-fuel-a-merchandisers-blog/3-best-retail-sales-training-tips-for-new-employees/",
+      "views": 2,
+      "title": "3 Best Retail Sales Training Tips for New Employees",
+      "image": "https://cdn11.bigcommerce.com/s-yjqz8i52ko/product_images/uploaded_images/3-best-retail-sales-training-tips-for-new-employees.png"
     }
   ],
   "allTimeCounts": {
@@ -95,7 +95,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 56,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 20,
     "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 17,
-    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 16,
+    "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 17,
     "/p-o-p-fuel-a-merchandisers-blog/sustainable-merchandising-without-compromise-how-eco-clip-strip-display-strips-benefit-retailers-and-the-environment/": 16,
     "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/": 15,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-revenue-in-2026-strategic-use-of-clip-strip-pop-displays-to-drive-sales-and-engagement/": 14,
@@ -239,6 +239,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/the-new-shelf-space-strategically-positioning-your-store-for-aidriven-shopping-with-perplexity/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/the-scary-realities-of-entrepreneurshipand-how-to-deal-with-them/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/things-you-need-to-start-your-own-product-photography-at-home/": 3,
+    "/p-o-p-fuel-a-merchandisers-blog/tips-for-an-effective-wholesale-strategy/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/understanding-the-effective-use-of-pop-pointofpurchase-display-in-retail/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/using-digital-signage-to-keep-people-connected-and-informed-in-the-time-of-a-pandemic/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/ways-how-retailers-can-take-advantage-from-return-policies/": 3,
@@ -404,7 +405,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/three-simple-ways-to-create-an-engaged-customer-base/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/three-triedandtested-email-ideas-to-increase-foot-traffic-in-your-store/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/timeless-ways-to-increase-conversions/": 2,
-    "/p-o-p-fuel-a-merchandisers-blog/tips-for-an-effective-wholesale-strategy/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/tips-for-using-retail-store-fixtures-to-improve-customer-experience/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/tips-on-how-to-get-a-place-inside-a-retail-store/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/tips-on-how-to-win-your-next-chain-store-buyer-meeting/": 2,
@@ -437,6 +437,7 @@
     "/p-o-p-fuel-a-merchandisers-blog/why-you-have-to-create-a-prelaunch-page-to-boost-your-marketing/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/why-you-need-more-than-just-images-to-sell-your-products/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/why-you-need-to-invest-in-referral-marketing/": 2,
+    "/p-o-p-fuel-a-merchandisers-blog/why-you-need-to-level-up-with-a-databacked-omnichannel-marketing-strategy/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/window-displays-help-us-connect-with-customers/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/you-have-great-products-but-can-your-customers-see-them/": 2,
     "/p-o-p-fuel-a-merchandisers-blog/your-store-windows-can-attract-or-repel-a-customer-make-them-count/": 2,
@@ -615,16 +616,14 @@
     "/p-o-p-fuel-a-merchandisers-blog/why-customerdriven-marketing-is-now-the-thing/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/why-its-necessary-to-keep-up-with-retail-consumer-trends/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/why-the-world-needs-ecofriendly-packaging-and-shipping-alternatives/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/why-you-need-to-level-up-with-a-databacked-omnichannel-marketing-strategy/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/why-you-should-never-correct-your-retail-store-customer/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/will-it-change-the-retail-experience-forever/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/working-on-customer-loyalty-for-business-to-become-successful/": 1
   },
   "recentCounts": {
-    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 39,
+    "/p-o-p-fuel-a-merchandisers-blog/cutting-out-the-middleman-understanding-disintermediation-and-its-impact-on-modern-business/": 36,
     "/p-o-p-fuel-a-merchandisers-blog/decoding-pure-play-ecommerce-what-it-is-and-how-it-drives-onlineonly-retail-success/": 6,
     "/p-o-p-fuel-a-merchandisers-blog/five-attractive-effective-marketing-schemes-for-memorial-day/": 6,
-    "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/": 4,
     "/p-o-p-fuel-a-merchandisers-blog/4-time-management-tips-for-small-retail-store-managers/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/the-halo-effect-advantage-how-smart-retailers-drive-sales-through-perception-power/": 3,
     "/p-o-p-fuel-a-merchandisers-blog/3-best-retail-sales-training-tips-for-new-employees/": 2,
@@ -645,7 +644,6 @@
     "/p-o-p-fuel-a-merchandisers-blog/elevating-holiday-momentum-measuring-and-building-customer-loyalty-with-clip-strip-corp/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/elevating-retail-experiences-how-strategic-merchandising-with-clip-strip-enhances-customer-engagement/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/from-clicks-to-carts-strategic-tactics-that-convert-social-shoppers-into-retail-buyers/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/from-community-to-customer-6-local-advertising-ideas-that-work/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-make-your-small-retail-customer-feel-special/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-optimize-the-shelf-facing-in-a-small-retail-store/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/how-to-save-time-and-get-more-done-in-your-retail-store/": 1,
@@ -653,20 +651,20 @@
     "/p-o-p-fuel-a-merchandisers-blog/mastering-keyword-research-a-strategic-guide-to-elevate-your-seo-game/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/mastering-the-ecommerce-business/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-instore-marketing-impact-how-mobile-ceiling-sign-hanging-kits-improve-message-visibility-and-customer-engagement/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/maximizing-reach-a-3step-retail-content-marketing-strategy-to-grow-your-audience/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/maximizing-retail-impact-leveraging-customerfacing-displays-and-strategic-merchandising-with-clip-strip/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/psychology-of-shoplifting-and-how-retailers-prevent-it-from-happening/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/reinventing-retail-visibility-how-clip-strip-pointofpurchase-displays-drive-revenue-in-the-age-of-artificial-intelligence/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/retail-lighting-tips-to-encourage-sales-through-lights/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/retail-merchandising-set-up-your-store-for-retail-success/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/retail-without-discounts-weighing-the-strategy-and-5-proven-ways-to-drive-sales-at-full-price/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/rise-of-mobile-gaming-overshadowing-social-media/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/small-fixtures-bigger-impact-why-doubleloop-display-hooks-matter-in-supermarket-merchandising/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/small-hardware-major-visibility-why-suction-cups-are-essential-to-retail-signage/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/sourcing-out-products-for-your-retail-store/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/strategic-precision-unlocking-market-potential-through-geographic-segmentation/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/strategic-tiktok-reels-a-highimpact-path-to-accelerating-retail-revenue/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/the-anatomy-of-successful-b2b-referral-programs-how-top-companies-turn-recommendations-into-revenue/": 1,
     "/p-o-p-fuel-a-merchandisers-blog/the-hidden-retail-trigger-how-strategic-displays-drive-impulse-buys-among-gen-z-and-millennials/": 1,
-    "/p-o-p-fuel-a-merchandisers-blog/what-you-need-to-know-about-online-shopping/": 1
+    "/p-o-p-fuel-a-merchandisers-blog/tips-for-an-effective-wholesale-strategy/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/what-you-need-to-know-about-online-shopping/": 1,
+    "/p-o-p-fuel-a-merchandisers-blog/why-you-need-to-level-up-with-a-databacked-omnichannel-marketing-strategy/": 1
   }
 }
